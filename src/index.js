@@ -1,6 +1,8 @@
 const a = 5;
-const b = a
-const c = 'sdkljfhshdgfjgsfgjgsdhfjgsdjfgjsdghfjshgdjfhgvjsdhvbjfkhvsdjvfjsdgvjfgvsdjvfjksdhgvfjgsdjfgjsdhgvfjvhsdjfvjsdvfjvsdjg';
+const b = a;
 function ab() {
-  return a, b, c;
+  const c = a * b;
+  return c;
 }
+
+ab();
